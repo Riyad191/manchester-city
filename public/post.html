@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Post One</title>
+  </head>
+  <body id="home">
+    <header class="hero blog">
+      <div id="navbar" class="navbar top">
+        <div class="logo">
+          <img id="logo" src="./images/logooo.PNG" alt="" />
+          <div class="logoText">Manchester City</div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#s3">Manager</a></li>
+            <li><a href="index.html#cases">Cases</a></li>
+            <li><a href="index.html#s2">Blog</a></li>
+            <li><a href="index.html#contact">Schedule</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="content">
+        <h1>Blog</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="post">
+        <h2>Blog Post One</h2>
+        <p class="meta">
+          <i class="fas fa-user"></i> Posted by <strong>Alex Dev</strong> |
+          April 23 2020
+        </p>
+        <img src="images/blog/blog1.jpg" target="blank" alt="" />
+        <p>
+          Manchester City have taken over the Premier League title race in the
+          space of two months with a remarkable winning run that has seen...
+          <br />
+          Ever since his £ 61.64 million move from Benfica to Manchester City,
+          Ruben Dias has been a very important part of Pep Guardiola’s plan...
+          <br />
+          Sergio Aguero would without a doubt wish the 2020/21 season, and his
+          last for Manchester City would have panned out differently. Out of
+          contract...
+        </p>
+        <p>
+          Manchester City will resume their Champions League campaign as they
+          face Borussia Monchengladbach in a late kick-off. The odds definitely
+          predict Man City to...
+          <br />
+          While football is all about teamwork, even a single player missing a
+          game can be a gamechanger - literally. Those into a bet on soccer...
+          <br />
+          Manchester City will make the trip to Anfield for Sunday’s Premier
+          League clash against Liverpool. The Cityzens have been in stellar form
+          over the past...
+        </p>
+        <p>
+          Manchester City play host to Championship side Birmingham City in the
+          third round of the FA Cup on Sunday afternoon. Both sides head into
+          the...
+          <br />
+          Manchester City head to the red side of the city to take on Manchester
+          United at Old Trafford in the semi-finals of the Carabao Cup...
+          <br />
+          Manchester City take on local rivals Manchester United in the highly
+          anticipated Carabao Cup semi-final on Wednesday. Guardiola has won the
+          Carabao Cup with City...
+        </p>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer bg-dark">
+      <div class="social">
+        <a target="blank" href="https://www.facebook.com/mancity/"
+          ><i class="fab fa-facebook fa-2x"></i
+        ></a>
+        <a
+          target="blank"
+          href="https://twitter.com/ManCity?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          ><i class="fab fa-twitter fa-2x"></i
+        ></a>
+        <a target="blank" href="https://www.youtube.com/user/mcfcofficial"
+          ><i class="fab fa-youtube fa-2x"></i
+        ></a>
+        <a
+          target="blank"
+          href="https://www.google.com/search?q=man+city+google&rlz=1C1CHBF_enUS934US935&oq=man+city+google&aqs=chrome..69i57j0l4j69i60l3.9655j1j9&sourceid=chrome&ie=UTF-8"
+          ><i class="fab fa-google fa-2x"></i
+        ></a>
+      </div>
+      <p>Copyright &copy; 2020 - Manchester City</p>
+    </footer>
+    <script>
+      const navbar = document.getElementById("navbar");
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+          if (!scrolled) {
+            navbar.style.transform = "translateY(-70px)";
+          }
+          setTimeout(function () {
+            navbar.style.transform = "translateY(0)";
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add("top");
+          scrolled = false;
+        }
+      };
+    </script>
+  </body>
+</html>
