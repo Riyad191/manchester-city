@@ -5,7 +5,7 @@ Manchester City is my favourite club, and I keep googling schedules and news abo
 
 
 
-View Project on Heroku:
+View Website on Heroku:
 https://manchester--city.herokuapp.com/
 
 
