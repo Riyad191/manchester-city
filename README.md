@@ -3,6 +3,9 @@
 
 Manchester City is my favourite club, and I keep googling schedules and news about the club and games, so I thoght of building a website that is going to have eveything that I need to know in just one place, to make it easier and save my time.
 
+
+
+View Project on Heroku
 https://manchester--city.herokuapp.com/
 
 
