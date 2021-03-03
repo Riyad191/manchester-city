@@ -1,7 +1,7 @@
-# manchester city website
+# Manchester City Website
 
 
-Manchester City is my favourite club, and I keep googling schedules and news about the club and games, so I thoght of building a website that is going to have eveything that I need to know in just one place, to make it easier and save my time.
+Manchester City is my favourite club,I thoght of building a website that is going to have eveything that I need to know like news, schedule, squad players, etc in just one place, instead of googling all that.
 
 
 
